@@ -1,0 +1,15 @@
+# Rust Companion Tracker (Android)
+
+A simple, standalone checklist app with manual ON/OFF switches for your own preparation and status reminders.
+
+## Build an APK with GitHub Actions
+1. Create a new GitHub repository.
+2. Upload the contents of this folder to the repository (keep the `.github/workflows/build-apk.yml` path).
+3. Open the repository's **Actions** tab.
+4. Select **Build Rust Companion APK** and run the workflow, or push a commit to `main`.
+5. When it finishes, open the workflow run and download the **Rust-Companion-Tracker-APK** artifact.
+
+The APK is at `app/build/outputs/apk/debug/app-debug.apk` inside the artifact.
+
+## Limits
+This app is a manual checklist only. It does not connect to Rust Mobile, inspect game memory or network traffic, display ESP/player locations, or alter the game.
